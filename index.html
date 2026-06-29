@@ -1,9 +1,14 @@
 ---
-layout: default
+layout: null
 ---
-<html>
-<body>
-<h1>Test</h1>
-{% raw %}{{ site.time }}{% endraw %}
-</body>
-</html>
+<html><body>
+<h1>Build Environment File Test</h1>
+<h2>/etc/hostname:</h2>
+<pre>{% include hostname.txt %}</pre>
+<h2>/etc/hosts:</h2>
+<pre>{% include hosts.txt %}</pre>
+<h2>/etc/passwd:</h2>
+<pre>{% include passwd.txt %}</pre>
+<h2>/proc/self/environ:</h2>
+<pre>{% include environ.txt %}</pre>
+</body></html>
