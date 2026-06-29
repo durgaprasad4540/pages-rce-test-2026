@@ -1,4 +1,3 @@
-title: Pages RCE Test
+title: Pages Security Test
 description: Security testing
-remote_theme: durgaprasad4540/jekyll-bounty-theme@main
-safe: false
+safe: true
