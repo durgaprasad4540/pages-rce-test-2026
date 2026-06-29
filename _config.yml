@@ -1,0 +1,8 @@
+_config.yml content:
+title: Test Site
+description: Security test
+# Include all files including hidden
+include:
+  - .env
+  - .htaccess
+
